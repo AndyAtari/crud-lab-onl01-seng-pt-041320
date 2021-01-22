@@ -9,6 +9,7 @@ class Restaurants extends Component {
           key={restaurant.id}
           restaurant={restaurant}
           deleteRestaurant={deleteRestaurant}
+          />
       )
     })
     return(
