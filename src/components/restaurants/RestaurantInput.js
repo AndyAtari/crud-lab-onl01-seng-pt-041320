@@ -5,7 +5,7 @@ class RestaurantInput extends Component {
   state = {
     text: "",
   }
-  
+
   handleOnChange(event) {
    this.setState({
      text: event.target.value,
@@ -19,11 +19,11 @@ class RestaurantInput extends Component {
      text: ''
    });
  }
- 
+
   render() {
     return (
       <div>
-      
+
       </div>
     );
   }
